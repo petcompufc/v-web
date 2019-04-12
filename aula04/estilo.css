@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #425264;
+  height: 100vh;
+}
+
+#container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px dashed #ffffff;
+}
+
+#container a {
+  background: #7eb389;
+  color: #ffffff;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, sans-serif;
+}
