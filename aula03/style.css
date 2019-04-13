@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+*, body {
+	margin: 0;
+	padding: 0;
+}
+
+#grid-container {
+	width: 100vw;
+	height: 100vh;
+
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 1fr 2fr 1fr;
+	grid-template-areas:
+	 "header header header"
+	 "main main aside"
+	 "footer footer footer";
+}
+
+.header-item {
+	grid-area: header;
+}
+
+.main-item {
+	grid-area: main;
+}
+
+.aside-item {
+	grid-area: aside;
+}
+
+.footer-item {
+	grid-area: footer;
+}
+
