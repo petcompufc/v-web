@@ -149,3 +149,84 @@ myset.delete(1);
 console.log(myset.has(1)); // false
 console.log(myset.has(2)); // true
 ```
+
+## Estruturas condicionais
+
+Existem casos em que é necessário fazer um desvio no código baseado na lógica do seu problema. Em javascript existem duas estruturas condicionais principais.
+
+```javascript
+if (condition) {
+  console.log("wat");
+}
+
+if (condition) {
+  console.log("wat");
+} else {
+  console.log("when");
+}
+
+if (condition) {
+  console.log("why");
+} else if (condition) {
+  console.log("wat");
+} else {
+  console.log("when");
+}
+```
+
+```javascript
+switch(condition) {
+  case 0:
+    console.log("wat");
+    break;
+  case 1:
+    console.log("why");
+    break;
+  case 2:
+    console.log("when");
+    break;
+  default:
+    console.log("who");
+}
+```
+
+## Estruturas de laço
+
+Para casos que seja necessário uma repetição ou iteração, existem algumas estruturas de laço que podem fazer isso.
+
+```javascript
+for(let i = 0; i <= 5; i++) {
+  console.log(i);
+}
+```
+
+```javascript
+let i = 0;
+
+while(i <= 5) {
+  console.log(i);
+  i++;
+}
+```
+
+```javascript
+let obj = {
+  name: "Phillipe",
+  age: 20,
+};
+
+for (prop in obj) {
+  console.log(`${prop}: ${obj[prop]}`);
+}
+```
+
+```javascript
+let obj = {
+  name: "Phillipe",
+  age: 20
+};
+
+for (value in obj) {
+  console.log(value);
+}
+```
