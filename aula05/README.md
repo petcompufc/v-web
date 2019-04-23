@@ -8,7 +8,7 @@ Para executar javascript no terminal, basta digitar `node <nome-arquivo>.js`
 
 ## Linkando no html
 
-Para linkar o seu javascript no html, basta adicionar uma tag `<script></script>` no final de `<body></body`.
+Para linkar o seu javascript no html, basta adicionar uma tag `<script></script>` no final de `<body></body>`.
 
 ```html
 <body>
@@ -137,7 +137,6 @@ mymap.set("age", 20);
 O objeto `Set` é um conjunto de valores únicos.
 
 ```javascript
-
 let myset = new Set([1, 2]);
 
 console.log(myset.size); // 2
